@@ -1,0 +1,37 @@
+The challenge is focused on modelling catalytic processes in Hydrogen fuel cells. The motivation is to model one of the key steps in the oxygen reduction reaction. 
+
+To being on this challenge, you all can have a read of the following blog: https://aws.amazon.com/blogs/quantum-computing/exploring-computational-chemistry-using-quantinuums-inquanto-on-aws/
+
+
+In the challenge, We begin with analysing the chemical system's molecular orbitals, molecular orbitals energy, and density matrix.
+
+System: Pt5 + O2
+
+Learning tasks: 
+Tasks 1: 
+a). Run the Pt5 + O2 calculation using inquanto and pyscf library 
+b). Plot the MOs
+c). List of occupation numbers for ten orbitals (5 highly filled in energy, five lowest unoccupied molecular orbitals) 
+
+
+Challenge tasks: 
+Task 2: 
+
+ a). Localisation scheme of molecular orbitals 
+  
+Task 3: 
+
+ a). Perform transformation of molecular Hamiltonian to quantum JW basis 
+ b). Choose and run VQE ansatz from Inquanto 
+ c). test different flavour of VQE ansatz and compare the results 
+ 
+ 
+ Task 4: 
+ 
+ a). Come up with a solution to reduce the complexity of ansatz based on symmetry (such as point group symmetry)  
+ 
+ 
+ Task 5: 
+ 
+ a). Explore the Potential energy surface with respect to Pt-O bond distance (Dissociation occurs when the bond is too elongated)
+ b). Come up with techniques to converge calculation for elongated bonds (in case the standard settings for calculation fail)
